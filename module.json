@@ -1,0 +1,191 @@
+{
+  "id": "ik5e",
+  "title": "Iron Kingdoms 5E",
+  "description": "Iron Kingdoms: Requiem content for D&D 5th Edition. Includes races, classes, subclasses, backgrounds, equipment, feats, and alchemical formulas from the Iron Kingdoms campaign setting.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "authors": [
+    {
+      "name": "Iron Kingdoms Content Team",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "4.0.0",
+          "verified": "4.0.0"
+        }
+      }
+    ]
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json",
+      "flags": {}
+    },
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "languages/es.json",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "ik-races",
+      "label": "IK: Races",
+      "path": "packs/ik-races",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ik-classes",
+      "label": "IK: Classes",
+      "path": "packs/ik-classes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ik-subclasses",
+      "label": "IK: Subclasses",
+      "path": "packs/ik-subclasses",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ik-backgrounds",
+      "label": "IK: Backgrounds",
+      "path": "packs/ik-backgrounds",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ik-feats",
+      "label": "IK: Feats",
+      "path": "packs/ik-feats",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ik-weapons",
+      "label": "IK: Weapons",
+      "path": "packs/ik-weapons",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ik-armor",
+      "label": "IK: Armor",
+      "path": "packs/ik-armor",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ik-equipment",
+      "label": "IK: Equipment & Gear",
+      "path": "packs/ik-equipment",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ik-consumables",
+      "label": "IK: Alchemical Formulas",
+      "path": "packs/ik-consumables",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ik-magic-items",
+      "label": "IK: Magic Items",
+      "path": "packs/ik-magic-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Iron Kingdoms",
+      "sorting": "a",
+      "packs": [
+        "ik-races",
+        "ik-classes",
+        "ik-subclasses",
+        "ik-backgrounds",
+        "ik-feats",
+        "ik-weapons",
+        "ik-armor",
+        "ik-equipment",
+        "ik-consumables",
+        "ik-magic-items"
+      ]
+    }
+  ],
+  "flags": {
+    "ik5e": {
+      "sources": ["Iron Kingdoms: Requiem"]
+    }
+  },
+  "url": "",
+  "manifest": "",
+  "download": ""
+}

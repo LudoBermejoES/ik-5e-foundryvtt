@@ -1,0 +1,47 @@
+{
+  "IK5E": {
+    "ModuleName": "Iron Kingdoms 5E",
+    "ModuleDescription": "Contenido de Iron Kingdoms: Requiem para D&D 5ª Edición",
+
+    "Compendiums": {
+      "Races": "IK: Razas",
+      "Classes": "IK: Clases",
+      "Subclasses": "IK: Subclases",
+      "Backgrounds": "IK: Trasfondos",
+      "Feats": "IK: Dotes",
+      "Weapons": "IK: Armas",
+      "Armor": "IK: Armaduras",
+      "Equipment": "IK: Equipo y Herramientas",
+      "Consumables": "IK: Fórmulas Alquímicas",
+      "MagicItems": "IK: Objetos Mágicos"
+    },
+
+    "Races": {
+      "Gobber": "Gobber",
+      "Iosan": "Iosano",
+      "Nyss": "Nyss",
+      "Ogrun": "Ogrun",
+      "RhulicDwarf": "Enano Rhúlico",
+      "Trollkin": "Trollkin",
+      "HumanCygnaran": "Humano (Cygnarano)",
+      "HumanProtectorate": "Humano (Protectorado de Menoth)",
+      "HumanKhadoran": "Humano (Khadorano)",
+      "HumanLlaelese": "Humano (Llaelés)",
+      "HumanOrdic": "Humano (Órdico)",
+      "HumanCryxian": "Humano (Cryxiano)"
+    },
+
+    "Classes": {
+      "Alchemist": "Alquimista",
+      "GunMage": "Mago de Armas",
+      "Gunfighter": "Pistolero",
+      "Mechanik": "Mechanik",
+      "Warcaster": "Lanzaguerra"
+    },
+
+    "Source": {
+      "Book": "Iron Kingdoms: Requiem",
+      "Abbreviation": "IK:R"
+    }
+  }
+}

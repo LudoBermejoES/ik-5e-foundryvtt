@@ -1,0 +1,43 @@
+# Development tools and scripts
+tools/
+
+# Source PDFs
+books/
+
+# Extracted and intermediate content
+output/
+
+# Documentation (dev only)
+docs/
+
+# Claude Code config
+.claude/
+CLAUDE.md
+
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# YAML source files (compiled packs are used)
+packs/_source/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules (if any)
+node_modules/
+
+# Foundry CLI config
+.fvttrc
