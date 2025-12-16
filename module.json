@@ -1,7 +1,7 @@
 {
   "id": "ik5e",
-  "title": "Iron Kingdoms 5E",
-  "description": "Iron Kingdoms: Requiem content for D&D 5th Edition. Includes races, classes, subclasses, backgrounds, equipment, feats, and alchemical formulas from the Iron Kingdoms campaign setting.",
+  "title": "Reinos de Hierro 5E",
+  "description": "Contenido de Reinos de Hierro: Réquiem para D&D 5ª Edición. Incluye razas, clases, subclases, trasfondos, equipo, dotes, conjuros y fórmulas alquímicas de la ambientación Reinos de Hierro.",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "12",
@@ -28,23 +28,23 @@
   },
   "languages": [
     {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json",
-      "flags": {}
-    },
-    {
       "lang": "es",
       "name": "Español",
       "path": "languages/es.json",
+      "flags": {}
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json",
       "flags": {}
     }
   ],
   "packs": [
     {
-      "name": "ik-races",
-      "label": "IK: Races",
-      "path": "packs/ik-races",
+      "name": "ik-races-es",
+      "label": "RdH: Razas",
+      "path": "foundry_packs_es/ik-races-es",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -54,9 +54,9 @@
       "flags": {}
     },
     {
-      "name": "ik-classes",
-      "label": "IK: Classes",
-      "path": "packs/ik-classes",
+      "name": "ik-classes-es",
+      "label": "RdH: Clases",
+      "path": "foundry_packs_es/ik-classes-es",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -66,9 +66,9 @@
       "flags": {}
     },
     {
-      "name": "ik-subclasses",
-      "label": "IK: Subclasses",
-      "path": "packs/ik-subclasses",
+      "name": "ik-subclasses-es",
+      "label": "RdH: Subclases",
+      "path": "foundry_packs_es/ik-subclasses-es",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -78,9 +78,9 @@
       "flags": {}
     },
     {
-      "name": "ik-backgrounds",
-      "label": "IK: Backgrounds",
-      "path": "packs/ik-backgrounds",
+      "name": "ik-backgrounds-es",
+      "label": "RdH: Trasfondos",
+      "path": "foundry_packs_es/ik-backgrounds-es",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -90,9 +90,9 @@
       "flags": {}
     },
     {
-      "name": "ik-feats",
-      "label": "IK: Feats",
-      "path": "packs/ik-feats",
+      "name": "ik-feats-es",
+      "label": "RdH: Dotes",
+      "path": "foundry_packs_es/ik-feats-es",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -102,9 +102,9 @@
       "flags": {}
     },
     {
-      "name": "ik-weapons",
-      "label": "IK: Weapons",
-      "path": "packs/ik-weapons",
+      "name": "ik-spells-es",
+      "label": "RdH: Conjuros",
+      "path": "foundry_packs_es/ik-spells-es",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -114,9 +114,9 @@
       "flags": {}
     },
     {
-      "name": "ik-armor",
-      "label": "IK: Armor",
-      "path": "packs/ik-armor",
+      "name": "ik-weapons-es",
+      "label": "RdH: Armas",
+      "path": "foundry_packs_es/ik-weapons-es",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -126,9 +126,9 @@
       "flags": {}
     },
     {
-      "name": "ik-equipment",
-      "label": "IK: Equipment & Gear",
-      "path": "packs/ik-equipment",
+      "name": "ik-armor-es",
+      "label": "RdH: Armaduras",
+      "path": "foundry_packs_es/ik-armor-es",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -138,9 +138,9 @@
       "flags": {}
     },
     {
-      "name": "ik-consumables",
-      "label": "IK: Alchemical Formulas",
-      "path": "packs/ik-consumables",
+      "name": "ik-gear-es",
+      "label": "RdH: Equipo",
+      "path": "foundry_packs_es/ik-gear-es",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -150,9 +150,33 @@
       "flags": {}
     },
     {
-      "name": "ik-magic-items",
-      "label": "IK: Magic Items",
-      "path": "packs/ik-magic-items",
+      "name": "ik-ammunition-es",
+      "label": "RdH: Munición",
+      "path": "foundry_packs_es/ik-ammunition-es",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ik-alchemical-formulas-es",
+      "label": "RdH: Fórmulas Alquímicas",
+      "path": "foundry_packs_es/ik-alchemical-formulas-es",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ik-magic-items-es",
+      "label": "RdH: Objetos Mágicos",
+      "path": "foundry_packs_es/ik-magic-items-es",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -164,25 +188,27 @@
   ],
   "packFolders": [
     {
-      "name": "Iron Kingdoms",
+      "name": "Reinos de Hierro",
       "sorting": "a",
       "packs": [
-        "ik-races",
-        "ik-classes",
-        "ik-subclasses",
-        "ik-backgrounds",
-        "ik-feats",
-        "ik-weapons",
-        "ik-armor",
-        "ik-equipment",
-        "ik-consumables",
-        "ik-magic-items"
+        "ik-races-es",
+        "ik-classes-es",
+        "ik-subclasses-es",
+        "ik-backgrounds-es",
+        "ik-feats-es",
+        "ik-spells-es",
+        "ik-weapons-es",
+        "ik-armor-es",
+        "ik-gear-es",
+        "ik-ammunition-es",
+        "ik-alchemical-formulas-es",
+        "ik-magic-items-es"
       ]
     }
   ],
   "flags": {
     "ik5e": {
-      "sources": ["Iron Kingdoms: Requiem"]
+      "sources": ["Reinos de Hierro: Réquiem"]
     }
   },
   "url": "",
