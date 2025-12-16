@@ -1,0 +1,61 @@
+_id: c3d4e5f678901234
+name: Caballero del Profeta
+type: background
+img: icons/sundries/books/book-worn-brown-grey.webp
+system:
+  description:
+    value: >-
+      <p>Eres miembro de una de las mayores órdenes de caballeros que sirven a la Iglesia de Morrow. Aunque no tienes prohibido defender tu nación, has jurado solemnemente proteger y preservar la iglesia misma por encima de todo.</p>
+
+      <p>Es posible que hayas sentido la llamada a unirte o puede que te hayan nombrado caballero por ser un notable defensor de la fe y un guerrero piadoso que actuó por iniciativa propia en tiempos de gran peligro. Te han enviado a menudo a proteger los templos de Morrow en regiones devastadas por la guerra, donde debías permanecer neutral a las batallas que tenían lugar a tu alrededor, a menos que amenazaran los lugares sagrados que te enviaron a proteger.</p>
+
+      <p><strong>Mejora de Característica:</strong> tu puntuación de Fuerza o Sabiduría aumenta en 1.</p>
+
+      <p><strong>Competencia con armaduras:</strong> Armadura de placas.</p>
+
+      <p><strong>Competencia con armas:</strong> Espada larga, espada corta, espadón.</p>
+
+      <p><strong>Competencias en habilidades:</strong> Perspicacia, Religión.</p>
+
+      <p><strong>Idiomas:</strong> uno a tu elección.</p>
+
+      <p><strong>Equipo:</strong> el libro Oraciones de batalla, un símbolo sagrado de Morrow, una muda de ropa de buena calidad y una bolsa con 10 po.</p>
+
+      <p><strong>Rasgo: Guía de Morrow.</strong> Sentiste el toque de Morrow en tu vida antes de unirte a la orden y aún puedes sentir su mano guiándote para defender a su iglesia. Puedes orar a Morrow para que te oriente en una tarea relacionada con tu vocación. Cuando usas esta función, obtienes ventaja en cualquier tirada para una acción que no dure más de un asalto. Una vez usado este rasgo, tienes que finalizar un descanso corto o largo antes de volver a usarlo. Además, a discreción del DJ, puedes buscar ayuda o consejo en la sala capitular principal de los caballeros del profeta en el Sancteum o en cualquiera de las salas capitulares principales en Puertalta y Ceryl.</p>
+    chat: ''
+  source:
+    custom: 'Iron Kingdoms: Requiem'
+    book: IK:R
+    page: '139'
+    license: ''
+    rules: '2014'
+  advancement:
+  - _id: 3c4d5e6f78901234
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: true
+      grants:
+      - skills:ins
+      - skills:rel
+      choices: []
+    level: 0
+    title: ''
+    value:
+      chosen: []
+  startingEquipment: []
+effects: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ironkingdoms
+sort: 0
+folder: null
+_key: '!items!c3d4e5f678901234'

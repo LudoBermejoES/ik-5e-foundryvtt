@@ -1,0 +1,57 @@
+_id: 8a2b3c4d5e6f7890
+name: Capataz
+type: background
+img: icons/tools/smithing/hammer-maul-steel-grey.webp
+system:
+  description:
+    value: >-
+      <p>Antes de tu vida como aventurero, dirigías a trabajadores en los muelles de una ciudad portuaria o en el corazón de un distrito industrial. Tienes experiencia dirigiendo a quienes están a tu cargo, incluso cuando prefieren estar al mando, y tienes buen ojo para discernir lo realmente esencial de una tarea.</p>
+
+      <p><strong>Mejora de Característica:</strong> tu puntuación de Fuerza o Constitución aumenta en 1.</p>
+
+      <p><strong>Competencias en habilidades:</strong> Atletismo, Intimidación.</p>
+
+      <p><strong>Competencias con herramientas:</strong> siervos de vapor y un tipo de herramientas de artesano.</p>
+
+      <p><strong>Idiomas:</strong> dos a tu elección.</p>
+
+      <p><strong>Equipo:</strong> una muda de ropa de trabajo resistente, una muda de ropa común, una porra (garrote) y una bolsa con 10 po.</p>
+
+      <p><strong>Rasgo: Empleo Fácil.</strong> Tus años de experiencia te convierten en un activo muy deseable en cualquier mercado laboral y puedes encontrar trabajo fácilmente durante cualquier tiempo de inactividad. Si pasas el tiempo entre aventuras trabajando, puedes mantener un estilo de vida acomodado. Además, ahorras una cantidad de oro por día equivalente a la mitad del resultado de una prueba de Atletismo o Intimidación.</p>
+    chat: ''
+  source:
+    custom: 'Iron Kingdoms: Requiem'
+    book: IK:R
+    page: '140'
+    license: ''
+    rules: '2014'
+  advancement:
+  - _id: 5e6f7081902345ab
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: true
+      grants:
+      - skills:ath
+      - skills:itm
+      choices: []
+    level: 0
+    title: ''
+    value:
+      chosen: []
+  startingEquipment: []
+effects: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ironkingdoms
+sort: 0
+folder: null
+_key: '!items!8a2b3c4d5e6f7890'

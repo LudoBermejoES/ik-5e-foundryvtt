@@ -1,0 +1,51 @@
+_id: 4a8c7d9e1f2b3456
+name: Soldado
+type: background
+img: icons/environment/people/infantry-army.webp
+system:
+  description:
+    value: >-
+      <p>La guerra ha sido tu vida durante tanto tiempo como puedas recordar. Te entrenaste siendo joven, estudiaste el uso de armas y armaduras, y aprendiste técnicas básicas de supervivencia, incluyendo cómo mantenerte con vida en el campo de batalla.</p>
+
+      <p><strong>Competencias de Habilidad:</strong> Atletismo, Intimidación</p>
+
+      <p><strong>Competencias de Herramientas:</strong> Un tipo de juego, vehículos (terrestres)</p>
+
+      <p><strong>Equipo:</strong> Una insignia de rango, un trofeo tomado de un enemigo caído (una daga, hoja rota o trozo de estandarte), un juego de dados de hueso o baraja de cartas, un conjunto de ropa común y una bolsa con 10 po.</p>
+    chat: ''
+  source:
+    custom: 'Iron Kingdoms: Requiem'
+    book: PHB
+    page: ''
+    license: ''
+    rules: '2014'
+  advancement:
+  - _id: 1a2b3c4d5e6f7890
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: true
+      grants:
+      - skills:ath
+      - skills:itm
+      choices: []
+    level: 0
+    title: ''
+    value:
+      chosen: []
+  startingEquipment: []
+effects: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ironkingdoms
+sort: 0
+folder: null
+_key: '!items!4a8c7d9e1f2b3456'

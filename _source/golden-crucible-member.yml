@@ -1,0 +1,43 @@
+_id: b37be45658194678
+name: Miembro del Crisol Dorado
+type: background
+img: icons/environment/settlement/miembro-del-crisol-dorado.webp
+system:
+  description:
+    value: <p>Eres miembro de la Orden del Crisol Dorado, la principal organización alquímica de los Reinos de Hierro.</p>
+    chat: ''
+  source:
+    custom: 'Iron Kingdoms: Requiem'
+    book: IK:R
+    page: ''
+    license: ''
+    rules: '2014'
+  advancement:
+  - _id: 4b262f90bbc240f0
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: true
+      grants:
+      - skills:Arcana
+      - skills:Investigación
+      choices: []
+    level: 0
+    title: ''
+    value:
+      chosen: []
+effects: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ironkingdoms
+sort: 0
+folder: null
+_key: '!items!b37be45658194678'

@@ -1,0 +1,57 @@
+_id: 9012345678abcdef
+name: Guardia de Invierno
+type: background
+img: icons/equipment/head/hat-fur-brown.webp
+system:
+  description:
+    value: >-
+      <p>Habiendo fracasado en demostrar que eras tan capaz como los mejores reclutas de tu generación, pasaste los años necesarios de servicio a la Madre Patria en la Guardia de Invierno de Khador. Como soldado, te enfrentaste a los enemigos en el frente, donde formaste profundos lazos de compañerismo y aprendiste lo distintas que son las cosas lejos del pueblo donde naciste. Estás agradecido por la experiencia, pero te alegra que se haya acabado.</p>
+
+      <p><strong>Mejora de Característica:</strong> tu puntuación de Destreza o Constitución aumenta en 1.</p>
+
+      <p><strong>Competencia con armas:</strong> Trabuco, hacha de mano, rifle militar.</p>
+
+      <p><strong>Competencias en habilidades:</strong> Atletismo, Supervivencia.</p>
+
+      <p><strong>Competencias con herramientas:</strong> Siervos de vapor.</p>
+
+      <p><strong>Equipo:</strong> un gorro de piel, un símbolo de rango khadorano, un trofeo de un enemigo (una daga, un arma rota o un emblema deslucido), una muda de ropa común y una bolsa con 10 po.</p>
+
+      <p><strong>Rasgo: Juramento de Servicio.</strong> Todos los pueblos y aldeas de Khador están llenos de antiguos veteranos y personal militar capacitado, muchos de los cuales guardan sus viejos uniformes y armas con honores. Tienes ventaja en las pruebas de Carisma (Persuasión) y Carisma (Intimidación) al interactuar con miembros actuales o anteriores de la Guardia de Invierno. Además, puedes solicitar ayuda de los más veteranos si las cosas se complican. Tu DJ determina la cantidad y el alcance de cualquier ayuda que proporcionen los demás guardias de invierno.</p>
+    chat: ''
+  source:
+    custom: 'Iron Kingdoms: Requiem'
+    book: IK:R
+    page: '156'
+    license: ''
+    rules: '2014'
+  advancement:
+  - _id: 012345678abcdef0
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: true
+      grants:
+      - skills:ath
+      - skills:sur
+      choices: []
+    level: 0
+    title: ''
+    value:
+      chosen: []
+  startingEquipment: []
+effects: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ironkingdoms
+sort: 0
+folder: null
+_key: '!items!9012345678abcdef'

@@ -1,0 +1,57 @@
+_id: 5b9d8e0f2a3c4567
+name: Kayazy
+type: background
+img: icons/sundries/documents/document-sealed-signatures-red.webp
+system:
+  description:
+    value: >-
+      <p>Estás relacionado con uno de los kayazy, los infames «príncipes mercaderes» de Khador. Por tradición, sus miembros son líderes tanto de la industria comercial legítima como de los bajos fondos criminales, algo que perciben como una extensión natural de su papel en los negocios comerciales e industriales. Independientemente de que tengas o no un parentesco consanguíneo con el líder de tu familia, eres un miembro valioso de la organización y puedes contar con su apoyo si lo necesitas.</p>
+
+      <p><strong>Mejora de Característica:</strong> tu puntuación de Destreza o Carisma aumenta en 1.</p>
+
+      <p><strong>Competencias en habilidades:</strong> Intimidación, Persuasión.</p>
+
+      <p><strong>Competencias con herramientas:</strong> elige entre herramientas de ladrón o útiles de envenenador.</p>
+
+      <p><strong>Idiomas:</strong> uno a tu elección.</p>
+
+      <p><strong>Equipo:</strong> una muda de ropa común de color oscuro con capucha, un cuchillo, una palanca y una bolsa con 15 po.</p>
+
+      <p><strong>Rasgo: Pasado Violento.</strong> Has estado en ambos lados de tantas emboscadas que estás muy acostumbrado a situaciones que se tornan violentas en un abrir y cerrar de ojos. Recibes un bonificador de +2 en las tiradas de iniciativa. Además, los humanoides no pueden sorprenderte en un entorno urbano.</p>
+    chat: ''
+  source:
+    custom: 'Iron Kingdoms: Requiem'
+    book: IK:R
+    page: '136'
+    license: ''
+    rules: '2014'
+  advancement:
+  - _id: 2b3c4d5e6f708901
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: true
+      grants:
+      - skills:itm
+      - skills:per
+      choices: []
+    level: 0
+    title: ''
+    value:
+      chosen: []
+  startingEquipment: []
+effects: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ironkingdoms
+sort: 0
+folder: null
+_key: '!items!5b9d8e0f2a3c4567'

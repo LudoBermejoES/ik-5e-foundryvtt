@@ -1,0 +1,55 @@
+_id: 9b3c4d5e6f708901
+name: Comerciante
+type: background
+img: icons/commodities/currency/coins-assorted-mix-gold.webp
+system:
+  description:
+    value: >-
+      <p>Es posible que hayas sido miembro de la Comisión de Forjaquemada y hayas estado a cargo de uno de sus puestos comerciales en las afueras de Rhul, o quizás hablaste con un grupo de gobos ambulantes que esperaban encontrar algún trabajillo aprovechando el paso de los ejércitos. Cualquiera que sea tu pasado, siempre has tenido olfato para los negocios y la capacidad de obtener un beneficio de casi cualquier persona con la que te hayas encontrado.</p>
+
+      <p><strong>Mejora de Característica:</strong> tu puntuación de Inteligencia o Carisma aumenta en 1.</p>
+
+      <p><strong>Competencias en habilidades:</strong> Persuasión, Perspicacia.</p>
+
+      <p><strong>Idiomas:</strong> dos a tu elección.</p>
+
+      <p><strong>Equipo:</strong> una muda de viajero, un ábaco, una botella de tinta de una onza, una pluma de tinta, 5 hojas de pergamino y una caja de seguridad que contiene 20 po.</p>
+
+      <p><strong>Rasgo: Regateador Experto.</strong> Tu sentido negociador te permite leer fácilmente los mercados e identificar oportunidades para ganar o ahorrar un poco de dinero. Tienes ventaja en las tiradas de Carisma para establecer el precio de los bienes y servicios. Además, al iniciar un viaje largo, puedes negociar con un compañero comerciante, ya sea pasaje a cambio de proteger un envío u obtener información sobre qué productos pueden ser necesarios en los mercados de destino. A discreción del DJ, si conoces el destino de un viaje largo, puedes comprar cualquier tipo de bien común (especias, ropa, ganado, etc.) en tu lugar de partida y venderlo para obtener ganancias en tu destino. Tu DJ determina el beneficio.</p>
+    chat: ''
+  source:
+    custom: 'Iron Kingdoms: Requiem'
+    book: IK:R
+    page: '153'
+    license: ''
+    rules: '2014'
+  advancement:
+  - _id: 6f7081902345abcd
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: true
+      grants:
+      - skills:per
+      - skills:ins
+      choices: []
+    level: 0
+    title: ''
+    value:
+      chosen: []
+  startingEquipment: []
+effects: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ironkingdoms
+sort: 0
+folder: null
+_key: '!items!9b3c4d5e6f708901'

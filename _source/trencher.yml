@@ -1,0 +1,43 @@
+_id: a90070621de9422e
+name: Zapador
+type: background
+img: icons/environment/settlement/zapador.webp
+system:
+  description:
+    value: <p>Serviste en las trincheras, luchando en la brutal guerra que caracteriza los conflictos modernos de los Reinos de Hierro.</p>
+    chat: ''
+  source:
+    custom: 'Iron Kingdoms: Requiem'
+    book: IK:R
+    page: ''
+    license: ''
+    rules: '2014'
+  advancement:
+  - _id: 70d7505b9d814cb1
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: true
+      grants:
+      - skills:Atletismo
+      - skills:Supervivencia
+      choices: []
+    level: 0
+    title: ''
+    value:
+      chosen: []
+effects: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ironkingdoms
+sort: 0
+folder: null
+_key: '!items!a90070621de9422e'

@@ -1,0 +1,53 @@
+_id: 8e2a1b3c5d6f7890
+name: Artista
+type: background
+img: icons/tools/instruments/lute-gold-brown.webp
+system:
+  description:
+    value: >-
+      <p>Prosperas frente a una audiencia. Sabes cómo cautivar, entretener e incluso inspirar. Tu poesía puede conmover los corazones de aquellos que te escuchan, despertando el dolor o la alegría, la risa o la ira. Tu música eleva sus espíritus o captura su dolor. Tus pasos de baile cautivan, tu humor corta hasta el hueso. Sean cuales sean las técnicas que utilices, tu arte es tu vida.</p>
+
+      <p><strong>Competencias de Habilidad:</strong> Acrobacias, Interpretación</p>
+
+      <p><strong>Competencias de Herramientas:</strong> Kit de disfraz, un tipo de instrumento musical</p>
+
+      <p><strong>Equipo:</strong> Un instrumento musical (uno de tu elección), el favor de un admirador (carta de amor, mechón de pelo o baratija), un disfraz y una bolsa con 15 po.</p>
+
+      <p><strong>Rasgo: A Petición Popular.</strong> Siempre puedes encontrar un lugar donde actuar, normalmente una taberna o posada, pero posiblemente con un circo, un teatro o incluso en la corte de un noble. En dicho lugar, recibes alojamiento y comida gratis de un nivel modesto o cómodo (dependiendo de la calidad del establecimiento), siempre y cuando actúes cada noche. Además, tu actuación te convierte en una especie de figura local. Cuando los extraños te reconocen en una ciudad donde has actuado, normalmente simpatizan contigo.</p>
+    chat: ''
+  source:
+    custom: 'Iron Kingdoms: Requiem'
+    book: PHB
+    page: ''
+    license: ''
+    rules: '2014'
+  advancement:
+  - _id: 5e6f708190234567
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: true
+      grants:
+      - skills:acr
+      - skills:prf
+      choices: []
+    level: 0
+    title: ''
+    value:
+      chosen: []
+  startingEquipment: []
+effects: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ironkingdoms
+sort: 0
+folder: null
+_key: '!items!8e2a1b3c5d6f7890'

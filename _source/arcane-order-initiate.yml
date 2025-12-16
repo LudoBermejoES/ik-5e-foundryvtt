@@ -1,0 +1,64 @@
+_id: a9658feb8e0b4d89
+name: Iniciado de Orden Arcana
+type: background
+img: icons/environment/settlement/iniciado-de-orden-arcana.webp
+system:
+  description:
+    value: >-
+      <p>Has sido iniciado en una de las órdenes arcanas de los Reinos de Hierro, como la Orden Fraternal de Hechicería o la Orden del Crisol Dorado. Tu entrenamiento te ha dado conocimientos de teoría mágica y la historia de la práctica arcana.</p>
+
+      <p><strong>Competencias de Habilidad:</strong> Arcana, Historia</p>
+
+      <p><strong>Idiomas:</strong> Uno de tu elección</p>
+
+      <p><strong>Equipo:</strong> Un conjunto de ropa común, una botella de tinta negra, una pluma, un cuchillo pequeño, una carta de un mentor y una bolsa con 10 po.</p>
+    chat: ''
+  source:
+    custom: 'Iron Kingdoms: Requiem'
+    book: IK:R
+    page: ''
+    license: ''
+    rules: '2014'
+  advancement:
+  - _id: 49a2c6cb3f944b51
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: true
+      grants:
+      - skills:Arcana
+      - skills:Historia
+      choices: []
+    level: 0
+    title: ''
+    value:
+      chosen: []
+  - _id: 825fe384c1e5429f
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: false
+      grants: []
+      choices:
+      - count: 1
+        pool:
+        - languages:*
+    level: 0
+    title: ''
+    value:
+      chosen: []
+effects: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ironkingdoms
+sort: 0
+folder: null
+_key: '!items!a9658feb8e0b4d89'

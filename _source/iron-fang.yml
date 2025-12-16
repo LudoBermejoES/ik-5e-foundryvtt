@@ -1,0 +1,57 @@
+_id: e5f6789012345678
+name: Colmillo de Hierro
+type: background
+img: icons/weapons/polearms/pike-flared-red.webp
+system:
+  description:
+    value: >-
+      <p>Eres un Colmillo de Hierro entrenado y recientemente has formado parte de las poderosas legiones de Khador. Tu estricto entrenamiento y tu experiencia en el campo de batalla te han hecho intrépido y te han acostumbrado a las vicisitudes de la guerra. Eres experto en la lucha en formación y te sientes más cómodo cuando tienes aliados cerca y podéis cuidaros las espaldas unos a otros.</p>
+
+      <p><strong>Mejora de Característica:</strong> tu puntuación de Fuerza o Constitución aumenta en 1.</p>
+
+      <p><strong>Competencia con armaduras:</strong> Armadura de placas.</p>
+
+      <p><strong>Competencia con armas:</strong> Pica explosiva.</p>
+
+      <p><strong>Competencias en habilidades:</strong> Intimidación, Trato con Animales.</p>
+
+      <p><strong>Equipo:</strong> una insignia de rango khadorana, un trofeo de un enemigo (una daga, un arma rota o un emblema deslucido), una muda de ropa común y una bolsa con 10 po.</p>
+
+      <p><strong>Rasgo: Muro de Hierro.</strong> Estás acostumbrado a luchar codo con codo con otros miembros de las legiones Colmillo de Hierro. Obtienes +1 CA si estás a 5 pies o menos de un aliado. Cuando usas la acción de Ayudar en el ataque de un aliado, puedes hacer un ataque con arma como acción adicional.</p>
+    chat: ''
+  source:
+    custom: 'Iron Kingdoms: Requiem'
+    book: IK:R
+    page: '141'
+    license: ''
+    rules: '2014'
+  advancement:
+  - _id: 5e6f789012345678
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: true
+      grants:
+      - skills:itm
+      - skills:ani
+      choices: []
+    level: 0
+    title: ''
+    value:
+      chosen: []
+  startingEquipment: []
+effects: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ironkingdoms
+sort: 0
+folder: null
+_key: '!items!e5f6789012345678'

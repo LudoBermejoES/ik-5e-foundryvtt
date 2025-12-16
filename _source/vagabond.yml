@@ -1,0 +1,58 @@
+_id: 7d1f0a2b4c5e6789
+name: Vagabundo
+type: background
+img: icons/environment/wilderness/camp-fire.webp
+system:
+  description:
+    value: >-
+      <p>En las últimas décadas, la vida en ciertas partes de los Reinos de Hierro se ha interrumpido de forma irrevocable. Una gran tragedia afectó a todo Nyss, provocando que muchos de los supervivientes viajaran al sur como refugiados. Las tierras que los kriels troloides habían llamado hogar durante siglos fueron destruidas por la guerra y la codicia de las naciones humanas. Más recientemente, miles de miembros de todas las razas han tenido que recoger sus cosas y huir mientras hordas de infernales arrasaban las tierras. Aunque muchos de estos exiliados encontraron un nuevo lugar para establecerse, algunos decidieron aceptar la vida de vagabundo y acabaron pasando de una aventura a otra.</p>
+
+      <p><strong>Mejora de Característica:</strong> tu puntuación de Destreza o Sabiduría aumenta en 1.</p>
+
+      <p><strong>Competencias en habilidades:</strong> Supervivencia y elige una entre Historia o Naturaleza.</p>
+
+      <p><strong>Idiomas:</strong> uno a tu elección.</p>
+
+      <p><strong>Equipo:</strong> una muda de viajero, un pequeño recuerdo de tu tierra natal (un retrato de familia, una sola moneda o algo de valor similar), un odre de agua, un petate, 2 días de raciones, un yesquero, jabón y una bolsa de 5 po.</p>
+
+      <p><strong>Rasgo: Sentido del Peligro.</strong> Tu vida como vagabundo comenzó a raíz de un evento desafortunado. A veces sientes que la mala suerte te persigue, pero aún no te ha alcanzado. Tienes ventaja en las tiradas de iniciativa. Cuando sacas un 1 en una prueba de Sabiduría (Percepción) o Sabiduría (Perspicacia), puedes volver a tirar el dado pero debes usar la nueva tirada.</p>
+    chat: ''
+  source:
+    custom: 'Iron Kingdoms: Requiem'
+    book: IK:R
+    page: '155'
+    license: ''
+    rules: '2014'
+  advancement:
+  - _id: 4d5e6f7081902345
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: true
+      grants:
+      - skills:sur
+      choices:
+      - count: 1
+        pool:
+        - skills:his
+        - skills:nat
+    level: 0
+    title: ''
+    value:
+      chosen: []
+  startingEquipment: []
+effects: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ironkingdoms
+sort: 0
+folder: null
+_key: '!items!7d1f0a2b4c5e6789'

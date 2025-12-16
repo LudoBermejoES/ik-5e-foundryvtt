@@ -1,0 +1,57 @@
+_id: 6c0e9f1a3b4d5678
+name: Expedicionario
+type: background
+img: icons/tools/navigation/map-chart-tan.webp
+system:
+  description:
+    value: >-
+      <p>Te has abierto paso a través de las inhóspitas junglas de Alchiere y los páramos sin huellas del norte helado para completar las áreas en blanco de los mapas. Te sientes más en tu casa dentro de una tumba orgoth recién reabierta que en las bulliciosas calles de una ciudad importante. Te has perdido más veces de las que puedes contar, pero siempre has encontrado el camino de regreso a la civilización.</p>
+
+      <p><strong>Mejora de Característica:</strong> tu puntuación de Inteligencia o Sabiduría aumenta en 1.</p>
+
+      <p><strong>Competencias en habilidades:</strong> Naturaleza, Percepción.</p>
+
+      <p><strong>Competencias con herramientas:</strong> herramientas de cartógrafo.</p>
+
+      <p><strong>Idiomas:</strong> dos a tu elección.</p>
+
+      <p><strong>Equipo:</strong> herramientas de cartógrafo, muda de ropas de viaje, un estuche de pergaminos que contiene mapas en desarrollo y una bolsa con 15 po.</p>
+
+      <p><strong>Rasgo: Patrón.</strong> Recibes un estipendio de una universidad, una persona adinerada u otra organización cada mes, siempre que continúes explorando nuevas regiones, informes regularmente y traigas a tu mecenas algún obsequio ocasional de un lugar exótico. La cantidad de este estipendio es de 1d10 po por nivel de personaje. A discreción del DJ, tu benefactor puede darte sumas más elevadas por logros notables.</p>
+    chat: ''
+  source:
+    custom: 'Iron Kingdoms: Requiem'
+    book: IK:R
+    page: '130'
+    license: ''
+    rules: '2014'
+  advancement:
+  - _id: 3c4d5e6f70819023
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: true
+      grants:
+      - skills:nat
+      - skills:prc
+      choices: []
+    level: 0
+    title: ''
+    value:
+      chosen: []
+  startingEquipment: []
+effects: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ironkingdoms
+sort: 0
+folder: null
+_key: '!items!6c0e9f1a3b4d5678'

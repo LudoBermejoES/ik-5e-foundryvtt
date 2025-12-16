@@ -1,0 +1,43 @@
+_id: 34561ade966340ff
+name: Militar Khadorano
+type: background
+img: icons/environment/settlement/militar-khadorano.webp
+system:
+  description:
+    value: <p>Serviste en las fuerzas militares del Imperio Khadorano, luchando por la Madre Patria contra sus enemigos.</p>
+    chat: ''
+  source:
+    custom: 'Iron Kingdoms: Requiem'
+    book: IK:R
+    page: ''
+    license: ''
+    rules: '2014'
+  advancement:
+  - _id: f3219be386ff462c
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: true
+      grants:
+      - skills:Atletismo
+      - skills:Intimidación
+      choices: []
+    level: 0
+    title: ''
+    value:
+      chosen: []
+effects: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ironkingdoms
+sort: 0
+folder: null
+_key: '!items!34561ade966340ff'

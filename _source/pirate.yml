@@ -1,0 +1,50 @@
+_id: 7bce9638f1f4482b
+name: Corsario
+type: background
+img: icons/environment/settlement/corsario.webp
+system:
+  description:
+    value: >-
+      <p>Has navegado los mares como corsario o pirata. Tu vida en el mar te ha dado habilidades de navegación y combate.</p>
+
+      <p><strong>Competencias de Habilidad:</strong> Acrobacias, Percepción</p>
+
+      <p><strong>Competencias de Herramientas:</strong> Herramientas de navegador</p>
+
+      <p><strong>Equipo:</strong> Un garfio o cuchillo, 50 pies de cuerda de seda, un catalejo, un conjunto de ropa común y una bolsa con 10 po.</p>
+    chat: ''
+  source:
+    custom: 'Iron Kingdoms: Requiem'
+    book: IK:R
+    page: ''
+    license: ''
+    rules: '2014'
+  advancement:
+  - _id: 28b9cb2515db49c6
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: true
+      grants:
+      - skills:acr
+      - skills:prc
+      choices: []
+    level: 0
+    title: ''
+    value:
+      chosen: []
+effects: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ironkingdoms
+sort: 0
+folder: null
+_key: '!items!7bce9638f1f4482b'

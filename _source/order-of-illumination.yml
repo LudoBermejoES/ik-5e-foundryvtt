@@ -1,0 +1,57 @@
+_id: 2378ed35f0b14e86
+name: Orden de la Iluminación
+type: background
+img: icons/environment/settlement/orden-de-la-iluminación.webp
+system:
+  description:
+    value: <p>Eres miembro de la Orden de la Iluminación, dedicado a cazar practicantes de magia oscura y proteger a los fieles de amenazas sobrenaturales.</p>
+    chat: ''
+  source:
+    custom: 'Iron Kingdoms: Requiem'
+    book: IK:R
+    page: ''
+    license: ''
+    rules: '2014'
+  advancement:
+  - _id: 6bb616ebc567426f
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: true
+      grants:
+      - skills:Investigación
+      - skills:Religión
+      choices: []
+    level: 0
+    title: ''
+    value:
+      chosen: []
+  - _id: b8590018a8db4d5f
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: false
+      grants: []
+      choices:
+      - count: 1
+        pool:
+        - languages:*
+    level: 0
+    title: ''
+    value:
+      chosen: []
+effects: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ironkingdoms
+sort: 0
+folder: null
+_key: '!items!2378ed35f0b14e86'

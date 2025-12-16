@@ -1,0 +1,43 @@
+_id: ae90de1d5d424a4f
+name: Resistencia Llaelesa
+type: background
+img: icons/environment/settlement/resistencia-llaelesa.webp
+system:
+  description:
+    value: <p>Luchaste contra la ocupación khadorana como parte de la Resistencia Llaelesa.</p>
+    chat: ''
+  source:
+    custom: 'Iron Kingdoms: Requiem'
+    book: IK:R
+    page: ''
+    license: ''
+    rules: '2014'
+  advancement:
+  - _id: 96be11e5fe0e447a
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: true
+      grants:
+      - skills:Engaño
+      - skills:Sigilo
+      choices: []
+    level: 0
+    title: ''
+    value:
+      chosen: []
+effects: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ironkingdoms
+sort: 0
+folder: null
+_key: '!items!ae90de1d5d424a4f'

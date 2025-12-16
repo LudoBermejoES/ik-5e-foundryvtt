@@ -1,0 +1,50 @@
+_id: 47455ff600804cfc
+name: Veterano Mercenario
+type: background
+img: icons/environment/settlement/veterano-mercenario.webp
+system:
+  description:
+    value: >-
+      <p>Has trabajado como mercenario, vendiendo tu espada (o pistola) al mejor postor. Los Reinos de Hierro están llenos de oportunidades para luchadores hábiles dispuestos a aceptar trabajos peligrosos.</p>
+
+      <p><strong>Competencias de Habilidad:</strong> Atletismo, Percepción</p>
+
+      <p><strong>Competencias de Herramientas:</strong> Un tipo de juego</p>
+
+      <p><strong>Equipo:</strong> Un uniforme de tu antigua compañía, un trofeo de una batalla, un conjunto de ropa común y una bolsa con 10 po.</p>
+    chat: ''
+  source:
+    custom: 'Iron Kingdoms: Requiem'
+    book: IK:R
+    page: ''
+    license: ''
+    rules: '2014'
+  advancement:
+  - _id: 08528e093c574da2
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: true
+      grants:
+      - skills:Atletismo
+      - skills:Percepción
+      choices: []
+    level: 0
+    title: ''
+    value:
+      chosen: []
+effects: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ironkingdoms
+sort: 0
+folder: null
+_key: '!items!47455ff600804cfc'

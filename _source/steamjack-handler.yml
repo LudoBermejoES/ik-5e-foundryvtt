@@ -1,0 +1,50 @@
+_id: f6afc3db23fc47a5
+name: Manipulador de Siervos de Vapor
+type: background
+img: icons/environment/settlement/manipulador-de-siervos-de-vapor.webp
+system:
+  description:
+    value: >-
+      <p>Has trabajado con siervos de vapor—los constructos impulsados por vapor que son esenciales para la industria y la guerra en los Reinos de Hierro. Entiendes su funcionamiento y cómo manejarlos.</p>
+
+      <p><strong>Competencias de Habilidad:</strong> Arcana, Percepción</p>
+
+      <p><strong>Competencias de Herramientas:</strong> Herramientas de mecániko</p>
+
+      <p><strong>Equipo:</strong> Herramientas de mecániko, un conjunto de ropa común y una bolsa con 15 po.</p>
+    chat: ''
+  source:
+    custom: 'Iron Kingdoms: Requiem'
+    book: IK:R
+    page: ''
+    license: ''
+    rules: '2014'
+  advancement:
+  - _id: 0c9b75df14b641c9
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: true
+      grants:
+      - skills:Arcana
+      - skills:Percepción
+      choices: []
+    level: 0
+    title: ''
+    value:
+      chosen: []
+effects: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ironkingdoms
+sort: 0
+folder: null
+_key: '!items!f6afc3db23fc47a5'

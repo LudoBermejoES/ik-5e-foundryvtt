@@ -1,0 +1,59 @@
+_id: d4e5f67890123456
+name: Castigo de Scyrah
+type: background
+img: icons/weapons/swords/sword-longsword-ornate-gold.webp
+system:
+  description:
+    value: >-
+      <p>Eres uno de los fanáticos de Ios que creen que la erradicación de los arcanistas humanos restaurará a tus dioses. Tanto si has creído en la causa desde siempre o eres uno de los miles que se han unido al movimiento hace poco, tu devoción está clara.</p>
+
+      <p>Es posible que hayas formado parte del ejército del castigo que se acaba de crear en Ios o uno de los agentes lejanos que trabajaron en tierras humanas durante siglos. No importa cómo serviste, crees que luchar es mejor que aceptar la extinción.</p>
+
+      <p><strong>Mejora de Característica:</strong> tu puntuación de Fuerza o Destreza aumenta en 1.</p>
+
+      <p><strong>Competencia con armas:</strong> Espada larga, espada corta, ballestas de mano, ballestas ligeras.</p>
+
+      <p><strong>Competencias en habilidades:</strong> Acrobacias, Atletismo.</p>
+
+      <p><strong>Idiomas:</strong> uno a tu elección.</p>
+
+      <p><strong>Equipo:</strong> una espada corta o espada larga hecha en Ios, un anillo con un emblema del Castigo de Scyrah oculto, una muda de ropas de viaje y una bolsa con 10 po.</p>
+
+      <p><strong>Rasgo: Entrenamiento Intenso.</strong> Los miembros del Castigo se someten a un entrenamiento intenso que los destruye y los convierte en armas para sus dioses. Como resultado de esta capacitación, puedes perseguir objetivos durante mucho tiempo sin perder la concentración. Siempre que realices una prueba de característica con herramientas con las que seas competente y dediques al menos 10 minutos a la tarea, puedes convertir un 9 o menos en un 10.</p>
+    chat: ''
+  source:
+    custom: 'Iron Kingdoms: Requiem'
+    book: IK:R
+    page: '150'
+    license: ''
+    rules: '2014'
+  advancement:
+  - _id: 4d5e6f7890123456
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: true
+      grants:
+      - skills:acr
+      - skills:ath
+      choices: []
+    level: 0
+    title: ''
+    value:
+      chosen: []
+  startingEquipment: []
+effects: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ironkingdoms
+sort: 0
+folder: null
+_key: '!items!d4e5f67890123456'

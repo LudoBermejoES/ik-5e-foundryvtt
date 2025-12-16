@@ -1,0 +1,58 @@
+_id: 789012345678abcd
+name: Espía
+type: background
+img: icons/sundries/documents/document-sealed-red-yellow.webp
+system:
+  description:
+    value: >-
+      <p>Eres un experto en inteligencia, ya sea un espía autónomo o un agente de uno de los Reinos de Hierro. Hasta hace poco, habías vivido en un mundo sombrío de verdades ocultas y alianzas cambiantes. Desde una simple investigación hasta medios más directos, conoces numerosas formas de obtener la información que buscan tus clientes.</p>
+
+      <p><strong>Mejora de Característica:</strong> tu puntuación de Destreza o Sabiduría aumenta en 1.</p>
+
+      <p><strong>Competencias en habilidades:</strong> Engaño, Investigación, Sigilo.</p>
+
+      <p><strong>Competencias con herramientas:</strong> útiles para disfrazarse, útiles para falsificar, herramientas de ladrón.</p>
+
+      <p><strong>Idiomas:</strong> dos a tu elección.</p>
+
+      <p><strong>Equipo:</strong> un conjunto de herramientas a tu elección (útiles para disfrazarse, útiles para falsificar o herramientas de ladrón), un pasaporte mal falsificado (un recuerdo de tu primer intento), una muda de ropa de buena calidad, una muda de ropa común, muda de ropas de viaje y una bolsa con 15 po.</p>
+
+      <p><strong>Rasgo: Identidad Secreta.</strong> Además de establecer numerosas identidades falsas, has escondido alijos con evidencias que las corrobora en varias ciudades de Immoren Occidental. Estos alijos contienen disfraces, documentación falsa, kits de falsificación y otros elementos útiles creados con el propósito de demostrar que eres quien dices ser. Por cada lugar que visites, tú y tu DJ podéis hablar sobre si habría o no uno de estos escondrijos, así como las posibilidades de acceder a él.</p>
+    chat: ''
+  source:
+    custom: 'Iron Kingdoms: Requiem'
+    book: IK:R
+    page: '144'
+    license: ''
+    rules: '2014'
+  advancement:
+  - _id: 89012345678abcde
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: true
+      grants:
+      - skills:dec
+      - skills:inv
+      - skills:ste
+      choices: []
+    level: 0
+    title: ''
+    value:
+      chosen: []
+  startingEquipment: []
+effects: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ironkingdoms
+sort: 0
+folder: null
+_key: '!items!789012345678abcd'

@@ -1,0 +1,59 @@
+_id: f6789012345678ab
+name: Cruzado del Norte
+type: background
+img: icons/magic/fire/flame-burning-hand-orange.webp
+system:
+  description:
+    value: >-
+      <p>El Protectorado de Menoth lanzó la Cruzada del Norte al mismo tiempo que el jerarca Voyle declaró la independencia de la nación de Cygnar. Es posible que hayas estado en la ola inicial de soldados que marcharon cientos de millas a través de las Marcas de Piedrasangrienta, luego hasta Cygnar y finalmente al este de Llael. O tal vez fuiste uno de los miles de fieles que se unieron a la Cruzada en los años de la ocupación, luchando por difundir la verdad del Legislador a los infieles.</p>
+
+      <p>No importa cuándo te uniste, estabas allí cuando terminó. Te quedaste atrás cuando el grueso del ejército marchó hacia el sur para proteger Torre Sentencia de los invasores skorne y fuiste testigo del lento declive de la presencia del Protectorado en Llael, de los horrores de la Colecta y, finalmente, de la restauración de la independencia de Llael.</p>
+
+      <p>Te has quedado sin un propósito y tu fe está casi destrozada.</p>
+
+      <p><strong>Mejora de Característica:</strong> tu puntuación de Constitución o Carisma aumenta en 1.</p>
+
+      <p><strong>Competencias en habilidades:</strong> Perspicacia, Religión.</p>
+
+      <p><strong>Idiomas:</strong> uno a tu elección.</p>
+
+      <p><strong>Equipo:</strong> un símbolo sagrado de Menoth, un emblema de la Cruzada del Norte, muda de ropa de viaje y una bolsa con 5 po.</p>
+
+      <p><strong>Rasgo: Fe en lo que es Real.</strong> Tus experiencias en Llael te han dejado desencantado con tu antigua fe. Has aprendido que seguir ciegamente las palabras de los demás a veces no es ni la mejor idea ni el camino más seguro. Tienes ventaja en las pruebas de Sabiduría (Perspicacia) la primera vez que interactúas con una criatura.</p>
+    chat: ''
+  source:
+    custom: 'Iron Kingdoms: Requiem'
+    book: IK:R
+    page: '143'
+    license: ''
+    rules: '2014'
+  advancement:
+  - _id: 6789012345678abc
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: true
+      grants:
+      - skills:ins
+      - skills:rel
+      choices: []
+    level: 0
+    title: ''
+    value:
+      chosen: []
+  startingEquipment: []
+effects: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ironkingdoms
+sort: 0
+folder: null
+_key: '!items!f6789012345678ab'

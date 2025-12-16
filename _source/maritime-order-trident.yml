@@ -1,0 +1,59 @@
+_id: 345678abcdef0123
+name: Orden Marítima del Tridente
+type: background
+img: icons/tools/navigation/anchor-yellow-gold.webp
+system:
+  description:
+    value: >-
+      <p>Pasaste tus primeros años de entrenamiento como arcanista trabajando con la armada órdica. Aunque tu servicio ha terminado recientemente, es probable que aún sirvas como auxiliar junto a las fuerzas navales del reino, como asistente mágico del capitán de un barco mercante o como miembro valioso de una tripulación pirata.</p>
+
+      <p><strong>Mejora de Característica:</strong> tu puntuación de Fuerza o Inteligencia aumenta en 1.</p>
+
+      <p><strong>Competencias en habilidades:</strong> Conocimiento Arcano, Naturaleza.</p>
+
+      <p><strong>Competencias con herramientas:</strong> Vehículo (acuático).</p>
+
+      <p><strong>Idiomas:</strong> uno a tu elección.</p>
+
+      <p><strong>Equipo:</strong> una insignia de rango en la armada de Ord, 50 pies de cuerda de seda, una muda de ropa común y una bolsa con 15 po.</p>
+
+      <p><strong>Rasgo: Veterano Órdico.</strong> Pasaste tus primeros años como miembro de la Armada Real Órdica. Tanto si te has ido en buenos términos como en otros menos favorables, todavía tienes muchos amigos que sirven en ella. A discreción del DJ, puedes asegurar el pasaje en un barco órdico si uno de tus amigos tiene suficiente influencia o es el capitán del barco.</p>
+
+      <p><strong>Rasgo: Entrenamiento Magus de Armas.</strong> (Requisitos previos: Rasgos de lanzamiento de conjuros, magia de conjurador de guerra o magia del pacto) Añade los siguientes conjuros a la lista de conjuros de tu clase lanzadora de conjuros: Truco - Salpicadura ácida; Nivel 1 - Crear o destruir agua; Nivel 2 - Flecha ácida; Nivel 3 - Respirar bajo el agua; Nivel 4 - Controlar agua; Nivel 5 - Conjurar elemental (agua).</p>
+    chat: ''
+  source:
+    custom: 'Iron Kingdoms: Requiem'
+    book: IK:R
+    page: '146'
+    license: ''
+    rules: '2014'
+  advancement:
+  - _id: 45678abcdef01234
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: true
+      grants:
+      - skills:arc
+      - skills:nat
+      choices: []
+    level: 0
+    title: ''
+    value:
+      chosen: []
+  startingEquipment: []
+effects: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ironkingdoms
+sort: 0
+folder: null
+_key: '!items!345678abcdef0123'

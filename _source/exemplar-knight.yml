@@ -1,0 +1,57 @@
+_id: b2c3d4e5f6789012
+name: Caballero Ejemplar
+type: background
+img: icons/equipment/shield/heater-steel-worn.webp
+system:
+  description:
+    value: >-
+      <p>Eres uno de los guerreros acorazados de élite de la fe menita. Vives bajo un estricto código de absoluta obediencia a los sacerdotes del Templo Menita, especialmente aquellos en la casta de escrutadores, y sigues cada orden sin preguntas ni vacilaciones. Luchas con una fe que raya en lo inhumano. Capaz de resistir un castigo que incapacitaría a los de menor devoción, los dones divinos que te ha otorgado el Creador te hacen casi imparable.</p>
+
+      <p><strong>Mejora de Característica:</strong> tu puntuación de Fuerza o Carisma aumenta en 1.</p>
+
+      <p><strong>Competencia con armaduras:</strong> Armadura de placas.</p>
+
+      <p><strong>Competencia con armas:</strong> Ballestas de mano, ballestas ligeras, ballestas pesadas, hoja reliquia.</p>
+
+      <p><strong>Competencias en habilidades:</strong> Atletismo, Religión.</p>
+
+      <p><strong>Equipo:</strong> un relicario pequeño, una muda de ropa de buena calidad, un libro de oraciones y una bolsa con 15 po.</p>
+
+      <p><strong>Rasgo: Ira Justa.</strong> Te han entrenado para luchar en grupo junto a otros caballeros y para proteger a quienes están a tu lado. Cuando un ataque enemigo dañe a uno o más de tus aliados mientras estén a 10 pies o menos de ti, obtienes +2 Fuerza y +2 CA durante 1 asalto. Una vez por descanso corto o largo.</p>
+    chat: ''
+  source:
+    custom: 'Iron Kingdoms: Requiem'
+    book: IK:R
+    page: '139'
+    license: ''
+    rules: '2014'
+  advancement:
+  - _id: 2b3c4d5e6f789012
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: true
+      grants:
+      - skills:ath
+      - skills:rel
+      choices: []
+    level: 0
+    title: ''
+    value:
+      chosen: []
+  startingEquipment: []
+effects: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ironkingdoms
+sort: 0
+folder: null
+_key: '!items!b2c3d4e5f6789012'

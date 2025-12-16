@@ -1,0 +1,57 @@
+_id: a1b2c3d4e5f67890
+name: Buscador
+type: background
+img: icons/magic/light/orb-lightbulb-gray.webp
+system:
+  description:
+    value: >-
+      <p>Impulsado por el objetivo de arreglar los problemas que asolan a tu pueblo, eres miembro de una secta religiosa minoritaria y un movimiento entre algunos iosanos que viven voluntariamente como exiliados de Ios. A diferencia de los que están en el Castigo, crees poder encontrar respuestas en lugar de culpar o buscar venganza y tu búsqueda de una solución a cualquier misteriosa dolencia que ha afligido a la diosa Scyrah te ha llevado lejos de casa.</p>
+
+      <p>Te aferras a la esperanza de que los Desaparecidos esperan que alguien los encuentre en algún lugar más allá de las fronteras de Ios y mantienes tu optimismo en que participar en una investigación activa en el extranjero y desarrollar alianzas sólidas con personas informadas de otras razas te ayudarán a encontrar un remedio para el estado actual de los tuyos que siguen en Ios.</p>
+
+      <p><strong>Mejora de Característica:</strong> tu puntuación de Inteligencia o Carisma aumenta en 1.</p>
+
+      <p><strong>Competencias en habilidades:</strong> Investigación, Religión.</p>
+
+      <p><strong>Idiomas:</strong> Código de los Buscadores y otros dos a tu elección.</p>
+
+      <p><strong>Equipo:</strong> una muda de ropa de viajero, un diario para catalogar tus hallazgos, 10 antorchas o una luz embotellada y una bolsa con 10 po.</p>
+
+      <p><strong>Rasgo: Propósito Secreto.</strong> Los Buscadores se identifican como miembros de la secta y mantienen en secreto, con razón, cuáles son sus objetivos. Puedes leer y escribir mensajes escritos en el código de los Buscadores, una mezcla secreta de señales y símbolos que permite a los Buscadores ocultar mensajes en los bordes de los carteles de las carreteras e incorporar información en lo que parecen ser grafitis normales. Este código te permite no solo mantener en secreto una correspondencia con otras personas de tu orden, sino también ponerte en contacto con otros miembros de la secta en tu entorno. Por lo general, puedes confiar en estos compañeros Buscadores para que te ayuden de cuando en cuando. Además, puedes ser miembro de cualquier compañía aventurera y no es necesario que cumplas con ningún requisito previo.</p>
+    chat: ''
+  source:
+    custom: 'Iron Kingdoms: Requiem'
+    book: IK:R
+    page: '138'
+    license: ''
+    rules: '2014'
+  advancement:
+  - _id: 1a2b3c4d5e6f7890
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: true
+      grants:
+      - skills:inv
+      - skills:rel
+      choices: []
+    level: 0
+    title: ''
+    value:
+      chosen: []
+  startingEquipment: []
+effects: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ironkingdoms
+sort: 0
+folder: null
+_key: '!items!a1b2c3d4e5f67890'

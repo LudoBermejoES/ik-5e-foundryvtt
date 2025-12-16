@@ -1,0 +1,57 @@
+_id: a6d16d6ea7d24982
+name: Señor Gris
+type: background
+img: icons/environment/settlement/señor-gris.webp
+system:
+  description:
+    value: <p>Eres miembro del Pacto de los Señores Grises, la principal organización de magos de batalla de Khador.</p>
+    chat: ''
+  source:
+    custom: 'Iron Kingdoms: Requiem'
+    book: IK:R
+    page: ''
+    license: ''
+    rules: '2014'
+  advancement:
+  - _id: 3cfac2d8e3b3479c
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: true
+      grants:
+      - skills:Arcana
+      - skills:Historia
+      choices: []
+    level: 0
+    title: ''
+    value:
+      chosen: []
+  - _id: 98a72e1267c942d7
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: false
+      grants: []
+      choices:
+      - count: 1
+        pool:
+        - languages:*
+    level: 0
+    title: ''
+    value:
+      chosen: []
+effects: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ironkingdoms
+sort: 0
+folder: null
+_key: '!items!a6d16d6ea7d24982'

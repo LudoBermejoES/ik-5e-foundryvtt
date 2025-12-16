@@ -1,0 +1,57 @@
+_id: d3d89c71db174301
+name: Sacerdote
+type: background
+img: icons/environment/settlement/sacerdote.webp
+system:
+  description:
+    value: <p>Eres servidor de una deidad, dedicado a su adoración y a la difusión de su fe.</p>
+    chat: ''
+  source:
+    custom: 'Iron Kingdoms: Requiem'
+    book: IK:R
+    page: ''
+    license: ''
+    rules: '2014'
+  advancement:
+  - _id: fc4b23e77c154700
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: true
+      grants:
+      - skills:Perspicacia
+      - skills:Religión
+      choices: []
+    level: 0
+    title: ''
+    value:
+      chosen: []
+  - _id: ccac0e56688a43b5
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: false
+      grants: []
+      choices:
+      - count: 2
+        pool:
+        - languages:*
+    level: 0
+    title: ''
+    value:
+      chosen: []
+effects: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ironkingdoms
+sort: 0
+folder: null
+_key: '!items!d3d89c71db174301'

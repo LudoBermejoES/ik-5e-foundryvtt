@@ -1,0 +1,55 @@
+_id: 12345678abcdef01
+name: Guardia de la Llama del Templo
+type: background
+img: icons/weapons/polearms/spear-flared-gold.webp
+system:
+  description:
+    value: >-
+      <p>Eres un verdadero soldado de la fe menita. Tu tarea original era proteger un templo sagrado, pero has tenido que ir a la guerra guiado por la mano del Creador y sus sacerdotes. Aunque ya no sirves directamente como miembro del ejército del Protectorado, sigues siendo fiel a su fe y a la voluntad del sacerdocio.</p>
+
+      <p><strong>Mejora de Característica:</strong> tu puntuación de Fuerza o Constitución aumenta en 1.</p>
+
+      <p><strong>Competencia con armas:</strong> Lanza flamígera, escudos.</p>
+
+      <p><strong>Competencias en habilidades:</strong> Intimidación, Religión.</p>
+
+      <p><strong>Equipo:</strong> un tabardo blanco, un símbolo sagrado de Menoth llamado menofix, un yelmo con un menofix, una muda de ropa común y una bolsa con 10 po.</p>
+
+      <p><strong>Rasgo: Valor Ardiente.</strong> En tus años de servicio al Templo las llamas siempre han sido protagonistas, tanto en los rituales como en las armas que has llevado a la batalla. Estás tan acostumbrado al calor que apenas notas su presencia, pero su ausencia te preocupa. Mientras lleves un objeto ardiente, como una antorcha o una lanza flamígera, tienes ventaja en las tiradas de salvación contra el miedo. Los efectos causados por llamas no pueden asustarte.</p>
+    chat: ''
+  source:
+    custom: 'Iron Kingdoms: Requiem'
+    book: IK:R
+    page: '152'
+    license: ''
+    rules: '2014'
+  advancement:
+  - _id: 2345678abcdef012
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: true
+      grants:
+      - skills:itm
+      - skills:rel
+      choices: []
+    level: 0
+    title: ''
+    value:
+      chosen: []
+  startingEquipment: []
+effects: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ironkingdoms
+sort: 0
+folder: null
+_key: '!items!12345678abcdef01'

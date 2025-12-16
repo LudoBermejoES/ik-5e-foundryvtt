@@ -1,0 +1,64 @@
+_id: fa4fa49055b14787
+name: Investigador Urbano
+type: background
+img: icons/environment/settlement/investigador-urbano.webp
+system:
+  description:
+    value: >-
+      <p>Has trabajado como investigador en una de las grandes ciudades de los Reinos de Hierro, resolviendo crímenes y descubriendo secretos. Sabes cómo navegar entornos urbanos y encontrar información.</p>
+
+      <p><strong>Competencias de Habilidad:</strong> Investigación, Percepción</p>
+
+      <p><strong>Idiomas:</strong> Uno de tu elección</p>
+
+      <p><strong>Equipo:</strong> Una lupa, evidencia de un caso pasado, un conjunto de ropa común y una bolsa con 10 po.</p>
+    chat: ''
+  source:
+    custom: 'Iron Kingdoms: Requiem'
+    book: IK:R
+    page: ''
+    license: ''
+    rules: '2014'
+  advancement:
+  - _id: 2a2d668cd463441e
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: true
+      grants:
+      - skills:Investigación
+      - skills:Percepción
+      choices: []
+    level: 0
+    title: ''
+    value:
+      chosen: []
+  - _id: d5e59701fbf54d69
+    type: Trait
+    configuration:
+      mode: default
+      allowReplacements: false
+      grants: []
+      choices:
+      - count: 1
+        pool:
+        - languages:*
+    level: 0
+    title: ''
+    value:
+      chosen: []
+effects: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: ironkingdoms
+sort: 0
+folder: null
+_key: '!items!fa4fa49055b14787'
