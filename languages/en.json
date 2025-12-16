@@ -69,7 +69,13 @@
       "ArcaneMechanik": "Arcane Mechanik",
       "Controller": "Controller",
       "Arcanist": "Arcanist",
-      "Soldier": "Soldier"
+      "Soldier": "Soldier",
+      "PathOfTheCondemned": "Path of the Condemned",
+      "ManOWar": "Man-O-War",
+      "WayOfKeeping": "Way of Keeping",
+      "DaughterOfTheFlame": "Daughter of the Flame",
+      "Widowmaker": "Widowmaker",
+      "Stormsmith": "Stormsmith"
     },
 
     "Backgrounds": {
@@ -181,7 +187,20 @@
       "SmokeGrenade": "Smoke Grenade",
       "FlashGrenade": "Flash Grenade",
       "FearGasGrenade": "Fear Gas Grenade",
-      "StrangleGasGrenade": "Strangle Gas Grenade"
+      "StrangleGasGrenade": "Strangle Gas Grenade",
+      "LightningRod": "Lightning Rod",
+      "StormGrenade": "Storm Grenade",
+      "FlameSpearTemple": "Flame Spear (Temple)",
+      "SpikedTorch": "Spiked Torch",
+      "WidowmakerRifle": "Widowmaker Rifle",
+      "CinderBomber": "Cinder Bomber",
+      "Bannfield603SV": "Bannfield 603SV",
+      "RaevhanExpress": "Raevhan Express",
+      "ThatcherTrenchCarbine": "Thatcher Trench Carbine",
+      "CleftDagger": "Cleft Dagger",
+      "CleftSpear": "Cleft Spear",
+      "CleftSword": "Cleft Sword",
+      "DruidicVoulge": "Druidic Voulge"
     },
 
     "Armor": {
@@ -213,7 +232,11 @@
       "GunsmithsKit": "Gunsmith's Kit",
       "MechaniksToolkit": "Mechanik's Toolkit",
       "RuneEtchingKit": "Rune-Etching Kit",
-      "Weatherometer": "Weatherometer"
+      "Weatherometer": "Weatherometer",
+      "Stormcaller": "Stormcaller",
+      "ForkRest": "Fork Rest",
+      "PrecisionAmmunition": "Precision Ammunition (10)",
+      "WarDogArmor": "War Dog Armor"
     },
 
     "Ammunition": {
@@ -247,7 +270,12 @@
       "Fellblade": "Fellblade",
       "OrgothStaff": "Orgoth Staff",
       "RelicBlade": "Relic Blade",
-      "GreylordsRuneAxe": "Greylords Rune Axe"
+      "GreylordsRuneAxe": "Greylords Rune Axe",
+      "CorbeniteRadiance": "Corbenite Radiance",
+      "BracersOfTheLastDefender": "Bracers of the Last Defender",
+      "PeriaptOfTheHealer": "Periapt of the Healer",
+      "SigilOfRowan": "Sigil of Rowan",
+      "StormsmithArmor": "Stormsmith Armor"
     },
 
     "Traits": {
@@ -303,6 +331,19 @@
     "Source": {
       "Book": "Iron Kingdoms: Requiem",
       "Abbreviation": "IK:R"
+    },
+
+    "ArchetypeSources": {
+      "DoomReavers": "Iron Kingdoms - Doom Reavers",
+      "Gravediggers": "Iron Kingdoms - Gravediggers",
+      "GuardiansOfTheTemple": "Iron Kingdoms - Guardians of the Temple",
+      "ManOWar": "Man-O-War (martial archetype)",
+      "Blackclad": "Secret Masters - The Blackclad Class",
+      "Stormsmiths": "Stormsmiths - Mechanik Archetype",
+      "WayOfKeeping": "The Way of Keeping - New Monastic Tradition",
+      "Widowmakers": "Widowmakers - Gunfighter archetype",
+      "SoldiersOfFortune": "Iron Kingdoms - Soldiers of Fortune",
+      "Warjacks": "Iron Kingdoms - Minds of Metal, Hearts of Fire"
     }
   }
 }
