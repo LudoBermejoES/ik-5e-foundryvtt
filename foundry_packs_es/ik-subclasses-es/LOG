@@ -1,0 +1,5 @@
+2025/12/16-11:30:03.062959 16eea3000 Delete type=3 #1
+2025/12/16-11:30:03.064434 16f73b000 Level-0 table #5: started
+2025/12/16-11:30:03.066588 16f73b000 Level-0 table #5: 7897 bytes OK
+2025/12/16-11:30:03.066716 16f73b000 Delete type=0 #3
+2025/12/16-11:30:03.066773 16f73b000 Manual compaction at level-0 from '!items!0dc8810c4864428d' @ 72057594037927935 : 1 .. '!items!fd3558133504495c' @ 0 : 0; will stop at (end)
