@@ -10,7 +10,7 @@
   },
   "authors": [
     {
-      "name": "Iron Kingdoms Content Team",
+      "name": "Ludo Bermejo",
       "flags": {}
     }
   ],
@@ -184,6 +184,30 @@
       },
       "system": "dnd5e",
       "flags": {}
+    },
+    {
+      "name": "ik-actors-aldea-espiritus",
+      "label": "RdH: Personajes - Aldea de Espíritus",
+      "path": "foundry_packs_es/ik-actors-aldea-espiritus",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ik-actors-cabeza-ferrea",
+      "label": "RdH: Personajes - Estación Cabezaférrea",
+      "path": "foundry_packs_es/ik-actors-cabeza-ferrea",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -202,7 +226,9 @@
         "ik-gear-es",
         "ik-ammunition-es",
         "ik-alchemical-formulas-es",
-        "ik-magic-items-es"
+        "ik-magic-items-es",
+        "ik-actors-aldea-espiritus",
+        "ik-actors-cabeza-ferrea"
       ]
     }
   ],
