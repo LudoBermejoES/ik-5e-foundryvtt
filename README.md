@@ -120,6 +120,26 @@ A Foundry VTT module containing content from **Iron Kingdoms: Requiem** for the 
 - Relic Blade
 - Greylords Rune Axe
 
+### Pregenerated Characters (12)
+
+Ready-to-play characters for Iron Kingdoms campaigns. JSON files in `docs/foundry_actors/`.
+
+**Aldea de Espíritus Adventure:**
+- Dmitri Volkov - Paladin 1 (Human Khadoran)
+- Gorluk Tharok - Fighter 1 (Ogrun)
+- Ivan Starov - Bard 1 (Human Khadoran)
+- Misha Krasnov - Rogue 1 (Human Khadoran)
+- Grindar Bloodborn - Ranger 1 (Trollkin)
+- Yuri Koskov - Cleric 1 (Human Khadoran)
+
+**Cabeza Férrea Adventure:**
+- Brokk Steadfast - Cleric 1 (Urban Trollkin)
+- Elias Dunford - Rogue 1 (Human Cygnaran)
+- Torgun Ironbid - Fighter 1 (Rhulic Ogrun)
+- Nola Carvalo - Gun Mage 1 (Human Ordic)
+- Gek-Darabin - Alchemist 1 (Gobber)
+- Hilda Forgebloom - Mechanik 1 (Rhulic Dwarf)
+
 ## Languages
 
 This module supports localization. Currently available:
@@ -150,6 +170,32 @@ fvtt package pack ik-armor --yaml
 fvtt package pack ik-equipment --yaml
 fvtt package pack ik-consumables --yaml
 fvtt package pack ik-magic-items --yaml
+```
+
+## Development
+
+### Generating Character JSONs
+
+Characters are defined in markdown at `/Users/ludo/code/RdH/docs/aventuras/` and converted to Foundry JSON:
+
+```bash
+cd /Users/ludo/code/ik/tools
+
+# Convert all characters from an adventure
+python3 characterConverter.py /path/to/adventure/folder -o /Users/ludo/code/ik/docs/foundry_actors
+```
+
+The script:
+- Loads item databases from `tools/foundry_export_es/` (Spanish IK content) and D&D 5e sources
+- Embeds class, race, background, equipment, and spells as items in the actor
+- Maps Spanish spell names to English D&D 5e compendium entries
+
+See `CLAUDE.md` for detailed documentation.
+
+### Dependencies
+
+```bash
+pip install pymupdf pyyaml
 ```
 
 ## License
