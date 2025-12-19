@@ -220,6 +220,30 @@
       },
       "system": "dnd5e",
       "flags": {}
+    },
+    {
+      "name": "ik-actors-aldea-espiritus-taberna",
+      "label": "RdH: NPCs - Aldea de Espíritus (Taberna)",
+      "path": "foundry_packs_es/ik-actors-aldea-espiritus-taberna",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ik-actors-aldea-remota",
+      "label": "RdH: NPCs - Aldea Remota",
+      "path": "foundry_packs_es/ik-actors-aldea-remota",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -241,7 +265,9 @@
         "ik-magic-items-es",
         "ik-monsters-es",
         "ik-actors-aldea-espiritus",
-        "ik-actors-cabeza-ferrea"
+        "ik-actors-cabeza-ferrea",
+        "ik-actors-aldea-espiritus-taberna",
+        "ik-actors-aldea-remota"
       ]
     }
   ],
