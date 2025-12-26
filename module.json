@@ -174,6 +174,30 @@
       "flags": {}
     },
     {
+      "name": "ik-alchemical-items-es",
+      "label": "RdH: Items Alquímicos",
+      "path": "foundry_packs_es/ik-alchemical-items-es",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ik-class-features-es",
+      "label": "RdH: Rasgos de Clase",
+      "path": "foundry_packs_es/ik-class-features-es",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
       "name": "ik-magic-items-es",
       "label": "RdH: Objetos Mágicos",
       "path": "foundry_packs_es/ik-magic-items-es",
@@ -262,6 +286,8 @@
         "ik-gear-es",
         "ik-ammunition-es",
         "ik-alchemical-formulas-es",
+        "ik-alchemical-items-es",
+        "ik-class-features-es",
         "ik-magic-items-es",
         "ik-monsters-es",
         "ik-actors-aldea-espiritus",

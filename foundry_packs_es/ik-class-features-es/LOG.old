@@ -1,0 +1,15 @@
+2025/12/26-09:28:03.076569 16f623000 Recovering log #4
+2025/12/26-09:28:03.077976 16f623000 Delete type=0 #4
+2025/12/26-09:28:03.078013 16f623000 Delete type=3 #2
+2025/12/26-09:28:03.079965 16febb000 Level-0 table #9: started
+2025/12/26-09:28:03.083932 16febb000 Level-0 table #9: 19660 bytes OK
+2025/12/26-09:28:03.084283 16febb000 Delete type=0 #7
+2025/12/26-09:28:03.084385 16febb000 Manual compaction at level-0 from '!items!alcfeat001es' @ 72057594037927935 : 1 .. '!items!mecfeat004es' @ 0 : 0; will stop at (end)
+2025/12/26-09:28:03.084402 16febb000 Manual compaction at level-1 from '!items!alcfeat001es' @ 72057594037927935 : 1 .. '!items!mecfeat004es' @ 0 : 0; will stop at '!items!mecfeat004es' @ 35 : 1
+2025/12/26-09:28:03.084406 16febb000 Compacting 1@1 + 1@2 files
+2025/12/26-09:28:03.088171 16febb000 Generated table #10@1: 27 keys, 19660 bytes
+2025/12/26-09:28:03.088178 16febb000 Compacted 1@1 + 1@2 files => 19660 bytes
+2025/12/26-09:28:03.088283 16febb000 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/26-09:28:03.088348 16febb000 Delete type=2 #5
+2025/12/26-09:28:03.088550 16febb000 Delete type=2 #9
+2025/12/26-09:28:03.088609 16febb000 Manual compaction at level-1 from '!items!mecfeat004es' @ 35 : 1 .. '!items!mecfeat004es' @ 0 : 0; will stop at (end)
